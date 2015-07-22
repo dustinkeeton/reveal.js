@@ -46,7 +46,7 @@
 			maxScale: 1.5,
 
 			// Display controls in the bottom right corner
-			controls: true,
+			controls: false,
 
 			// Display a presentation progress bar
 			progress: true,
@@ -60,7 +60,7 @@
 			// Enable keyboard shortcuts for navigation
 			keyboard: true,
 
-			// Optional function that blocks keyboard events when retuning false
+			// Optional function that blocks keyboard events when returning false
 			keyboardCondition: null,
 
 			// Enable the slide overview mode
@@ -131,14 +131,14 @@
 			backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
 
 			// Parallax background image
-			parallaxBackgroundImage: '', // CSS syntax, e.g. "a.jpg"
+			parallaxBackgroundImage: 'lib/img/light_world.png', // CSS syntax, e.g. "a.jpg"
 
 			// Parallax background size
-			parallaxBackgroundSize: '', // CSS syntax, e.g. "3000px 2000px"
+			parallaxBackgroundSize: '4096px 4096px', // CSS syntax, e.g. "3000px 2000px"
 
 			// Amount of pixels to move the parallax background per slide step
-			parallaxBackgroundHorizontal: null,
-			parallaxBackgroundVertical: null,
+			parallaxBackgroundHorizontal: 400,
+			parallaxBackgroundVertical: 400,
 
 			// Number of slides away from the current that are visible
 			viewDistance: 3,
